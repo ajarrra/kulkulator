@@ -1,7 +1,20 @@
 html,
 body {
   height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(213, 40, 181) rgb(48, 191, 155);
+  
 }
+body::-webkit-scrollbar{
+  background-color: rgb(240, 112, 240);
+  width:15px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(153, 103, 103);
+  border-radius: 50px;
+}
+
+
 * {
   margin: 0;
   padding: 0;
